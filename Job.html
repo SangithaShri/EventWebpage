@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+    <form action="#" method="post">
+        <fieldset style="border-radius: 2em;">
+            <legend>JOB APPLICATION</legend>
+        <table cellspacing="4" cellpadding="5" class="job" >
+            <h3>Application</h3>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="fname" placeholder="firstname" required><input type="text" name="lname" placeholder="lastname"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="email" placeholder="user@gmail.com" required></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td><input type="radio" name="gender" value="male">Male<input type="radio" name="gender" value="female">Female</td>
+                </tr>
+                <tr>
+                    <td>Date of Birth:</td>
+                    <td><input type="date" name="dob" required></td>
+                </tr>
+                <tr>
+                    <td>Position Applied:</td>
+                    <td><select name="position" required>
+                        <option value="none" selected disabled hidden>-Select-</option>
+                        <option value="da">Data Analyst</option>
+                        <option value="do">DevOps</option>
+                        <option value="fd">FullStack Developer</option>
+                        <option value="sd">Software Developer</option>
+                        <option value="ui">UI/UX Designer</option>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><textarea row="15" cols="25" name="address" placeholder="address here"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Phone Number:</td>
+                    <td><input type="tel" name="phone number" required></td>
+                </tr>
+                <tr>
+                    <td>Type of Work:</td>
+                    <td><input type="checkbox" name="ptime">Part-Time
+                        <input type="checkbox" name="ftime">Full-Time
+                        <input type="checkbox" name="intern">Internship
+                    </td>
+                </tr>
+                <tr>
+                    <td>Upload Picture:</td>
+                    <td><input type="file" name="pic" required></td>
+                </tr>
+                <tr>
+                    <td>Resume:</td>
+                    <td><input type="file" name="resume" required></td>
+                </tr>
+        </table>
+        <table cellspacing="4" cellpadding="5">
+            <h3>Education</h3>
+            <tr>
+                <td>HighSchool:</td>
+                <td><input type="text" name="hs" required></td>
+            </tr>
+            <tr>
+                <td>Did you graduate HighSchool:</td>
+                <td><input type="radio" name="grad">Yes<input type="radio" name="grad">No</td>
+            </tr>
+            <tr>
+                <td>Upload MarkSheet:</td>
+                <td><input type="file" name="mk"></td>
+            </tr>
+            <tr>
+                <td>UnderGraduate:</td>
+                <td><input type="text" name="ugrad"></td>
+            </tr>
+            <tr>
+                <td>Have you completed UnderGraduate:</td>
+                <td><input type="radio" name="ug">Yes<input type="radio" name="ug">No</td>
+            </tr>
+            <tr>
+                <td>Upload CGPA:</td>
+                <td><input type="file" name="pic"></td>
+            </tr>
+            <tr>
+                <td>PostGraduate:</td>
+                <td><input type="text" name="pgrad"></td>
+            </tr>
+            <tr>
+                <td>Have you completed PostGraduate:</td>
+                <td><input type="radio" name="pg">Yes<input type="radio" name="pg">No</td>
+            </tr>
+            <tr>
+                <td>Upload CGPA:</td>
+                <td><input type="file" name="pcgpa"></td>
+            </tr>
+        </table>
+        <table cellspacing="4" cellpadding="5">
+            <h3>Personal Information</h3>
+            <tr>
+                <td>Are you a citizen of India:</td>
+                <td><input type="radio" value="yes">Yes<input type="radio" value="no" >No</td>
+            </tr>
+                <tr>
+                    <td>Hobbies:</td>
+                    <td><input type="checkbox" name="hobby">Dancing<br>
+                    <input type="checkbox" name="hobby">Singing<br>
+                    <input type="checkbox" name="hobby">Reading Books<br>
+                    <input type="checkbox" name="hobby">Listening Music<br>
+                    <input type="checkbox" name="hobby">Cooking<br>
+                    <input type="checkbox" name="hobby">Binge Watching<br>
+                    <input type="checkbox" name="hobby">Communication<br>
+                    <input type="checkbox" name="hobby">Others</td>
+                </tr>
+                <tr>
+                    <td>Do you wish to work Aboard:</td>
+                    <td><input type="radio" value="yes">Yes<input type="radio" value="no">No</td>
+                </tr>
+                <tr>
+                    <td>Do you have any Experience in Work:</td>
+                    <td><input type="radio" value="yes">Yes<input type="radio" value="no">No</td>
+                </tr>
+                <tr>
+                    <td>Do you have any Reference:</td>
+                    <td><input type="radio" value="yes">Yes<input type="radio" value="no">No</td>
+                </tr>
+        </table>
+        <div class="buttonn">
+        <input type="submit" value="Apply" ></input>
+    </div>
+    </fieldset>
+    </form>
+</div>
+</body>
+</html>

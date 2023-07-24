@@ -1,0 +1,25 @@
+fieldset{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display:inline-table;
+    border: 4px solid rgba(59, 43, 43, 0.363);
+    padding: 10px;
+    background-color:bisque;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.buttonn{
+   text-indent: 2.5in;
+}
+.form{
+   padding-left: 350px;
+}
+
+body{
+    background-image: url("jobapp.jpeg");
+    border-image:none;
+}

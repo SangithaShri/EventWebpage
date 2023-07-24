@@ -1,0 +1,60 @@
+header{
+    background-image:url("Event_background.png");
+    border-image:auto;
+    color:white;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    list-style-type: none;
+    padding:0px;
+    
+}
+
+.link li a{
+    text-decoration: none;
+    padding: 40px 60px;
+
+}
+.link li a{
+    color: chocolate;
+    text-transform: uppercase;
+}
+
+img{
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+.content{
+    padding-left: 120px;
+    padding-right: 90px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.foot{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: rgb(189, 187, 187);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navi{
+    font-size: 20px;
+}
+
+body{
+    background-color: azure;
+}
